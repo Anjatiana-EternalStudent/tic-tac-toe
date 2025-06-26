@@ -1,0 +1,29 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+
+.square {
+  border: 3px solid black;
+  color: black;
+  font-size: larger;
+  font-weight: bolder;
+  text-align: center;
+  height: 65px;
+  width: 65px;
+}
+
+
+.btn {
+  margin: 5px 2px;
+  background-color: #cec1c1;
+}
+
+.winner {
+  background-color: aquamarine;
+}
