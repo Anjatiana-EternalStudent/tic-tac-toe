@@ -35,3 +35,8 @@
 .circle {
   color: rgba(0, 128, 0, 0.452);
 }
+
+.boardRow{
+  display: flex;
+  justify-content: center;
+}
