@@ -1,9 +1,9 @@
-
+import './App.css'
 import { useState } from "react";
 
-useState
 function Squares(props) {
-    return <button className="square" onClick={props.onClickSquares}>{props.value}</button>
+    const playerClass = props.value === "X" ? "cross" : props.value === "O" ? "circle" : "";
+    return <button className={`square ${playerClass}`} onClick={props.onClickSquares}>{props.value}</button>
 }
 export default function Board() {
     let status;
