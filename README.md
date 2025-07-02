@@ -1,12 +1,39 @@
-# React + Vite
+# React Tic-Tac-Toe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Un jeu simple et interactif de Tic Tac Toe développé avec React. Ce projet permet d’illustrer les concepts de base de React :
+* composants fonctionnels
+* gestion des state, props
+* rendu conditionnel
 
-Currently, two official plugins are available:
+## [Demo(Cliquer ici)](https://anjatiana-tic-tac-toe.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Fonctionnalités
 
-## Expanding the ESLint configuration
+- Jeu à deux joueurs (X et O)
+- Retour visuel à chaque coup joué
+- Détection automatique du gagnant
+- Bouton pour recommencer une nouvelle partie
+- Affichage dynamique du joueur courant ou du gagnant
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies utilisées
+
+- React (composants fonctionnels)
+- JavaScript (ES6+)
+- CSS
+
+## 🔧 Lancer le projet en local
+
+1. Cloner le dépôt
+
+```bash
+git clone https://github.com/Anjatiana-EternalStudent/tic-tac-toe.git
+```
+2. Installer les dépendances
+```bash
+npm install
+```
+
+3. Démarrer le serveur de développement
+```bash
+npm run dev
+```
